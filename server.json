@@ -1,17 +1,30 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "socialspool/cli",
-  "title": "SocialSpool",
+  "name": "io.github.TheSethRose/socialspool-cli",
   "description": "Create, schedule, and publish to X, LinkedIn, Bluesky, and Threads from AI agents.",
+  "repository": {
+    "url": "https://github.com/TheSethRose/socialspool-cli",
+    "source": "github"
+  },
   "version": "1.0.2",
-  "remotes": [
+  "packages": [
     {
-      "type": "streamable-http",
-      "url": "https://mcp.socialspool.com/mcp"
+      "registryType": "npm",
+      "identifier": "@thesethrose/socialspool-cli",
+      "version": "1.0.2",
+      "transport": {
+        "type": "streamable-http",
+        "url": "https://mcp.socialspool.com/mcp"
+      },
+      "environmentVariables": [
+        {
+          "description": "SocialSpool API key from your dashboard. Create one under Settings → API Keys.",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "SOCIALSPOOL_API_KEY"
+        }
+      ]
     }
-  ],
-  "installation": {
-    "type": "npm",
-    "package": "@thesethrose/socialspool-cli"
-  }
+  ]
 }

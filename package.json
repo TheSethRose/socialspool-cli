@@ -1,6 +1,7 @@
 {
   "name": "@thesethrose/socialspool-cli",
   "version": "1.0.2",
+  "mcpName": "io.github.TheSethRose/socialspool-cli",
   "description": "Agent-friendly CLI for the SocialSpool Public API.",
   "type": "module",
   "bin": {
