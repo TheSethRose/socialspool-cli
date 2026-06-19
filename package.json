@@ -1,0 +1,26 @@
+{
+  "name": "@thesethrose/socialspool-cli",
+  "version": "1.0.2",
+  "description": "Agent-friendly CLI for the SocialSpool Public API.",
+  "type": "module",
+  "bin": {
+    "spool": "dist/spool.js"
+  },
+  "exports": {
+    ".": "./dist/spool.js",
+    "./package.json": "./package.json",
+    "./SKILL.md": "./SKILL.md"
+  },
+  "files": [
+    "dist",
+    "SKILL.md",
+    "server.json"
+  ],
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "UNLICENSED"
+}

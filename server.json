@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "socialspool/cli",
+  "title": "SocialSpool",
+  "description": "Multi-platform social scheduling for AI agents. Create, schedule, validate, and publish to X, LinkedIn, Bluesky, and Threads. Track publish status per platform. CLI-first with remote MCP endpoint for agent workflows.",
+  "version": "1.0.2",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.socialspool.com/mcp"
+    }
+  ],
+  "installation": {
+    "type": "npm",
+    "package": "@thesethrose/socialspool-cli"
+  }
+}
