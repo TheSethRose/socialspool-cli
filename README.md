@@ -2,10 +2,7 @@
 
 Agent-friendly CLI for the [SocialSpool](https://socialspool.com/) Public API.
 
-SocialSpool is a social scheduling tool for creating posts, scheduling them
-across connected publishing accounts, and checking final publish status. This
-CLI is designed for humans and coding agents that need a safe, scriptable way
-to work through the public API without using dashboard session routes.
+Use your agent to schedule and publish to X, LinkedIn, Bluesky and/or YouTube. Create drafts, schedule for later and track publish status per platform. Just Write. Schedule. Then forget about it.
 
 ## What You Can Do
 
